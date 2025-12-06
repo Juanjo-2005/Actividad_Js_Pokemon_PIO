@@ -1,4 +1,4 @@
-// #Spell:disable
+// #Spell:disable esto es pa' la ortografía
 // Actividad 1 — Creación de tus primeros Pokémon en JavaScript
 
 // Declaración de tres constantes con nombres de pokemones
