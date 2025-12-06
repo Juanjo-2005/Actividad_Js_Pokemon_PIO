@@ -12,6 +12,11 @@ const MewtwoObj = {
 	tipo: 'Psíquico',
 	nivel: 70,
 	puntosDeVida: 300,
+	ataques: [
+ 		{ nombre: 'Psicocarga', daño: 90, tipo: 'Psíquico' },
+ 		{ nombre: 'Rayo Confuso', daño: 65, tipo: 'Psíquico' },
+ 		{ nombre: 'Pulso Éter', daño: 80, tipo: 'Psíquico' },
+ 	],
 };
 
 const ArceusObj = {
@@ -19,6 +24,11 @@ const ArceusObj = {
 	tipo: 'Normal',
 	nivel: 100,
 	puntosDeVida: 350,
+	ataques: [
+ 		{ nombre: 'Juicio', daño: 100, tipo: 'Normal' },
+ 		{ nombre: 'Puño Sagrado', daño: 75, tipo: 'Lucha' },
+ 		{ nombre: 'Barrera', daño: 0, tipo: 'Normal' },
+ 	],
 };
 
 const RayquazaObj = {
@@ -26,6 +36,11 @@ const RayquazaObj = {
 	tipo: 'Dragón/Volador',
 	nivel: 85,
 	puntosDeVida: 320,
+	ataques: [
+ 		{ nombre: 'Dracoascenso', daño: 120, tipo: 'Dragón' },
+ 		{ nombre: 'Enfado', daño: 90, tipo: 'Dragón' },
+ 		{ nombre: 'Vuelo', daño: 70, tipo: 'Volador' },
+ 	],
 };
 
 // Array que agrupa todos los objetos Pokémon
