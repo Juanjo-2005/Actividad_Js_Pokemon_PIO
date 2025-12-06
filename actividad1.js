@@ -36,3 +36,25 @@ console.log(MewtwoObj, ArceusObj, RayquazaObj);
 console.log('misPokemons:', misPokemons);
 // Mostrar la tabla de los pokemons en consola
 console.table(misPokemons);
+
+// <============================================>
+// <========== Función “subirNivel()” ==========>
+// <============================================>
+
+// Función que sube de nivel a un Pokémon
+function subirNivel(pokemon) {
+	if (!pokemon || typeof pokemon !== 'object') return;
+	// Aumenta el nivel en 1
+	pokemon.nivel = (pokemon.nivel || 0) + 1;
+	// Aumenta los puntos de vida en 5
+	pokemon.puntosDeVida = (pokemon.puntosDeVida || 0) + 5;
+	console.log(`Subió de nivel: ${pokemon.nombre} -> nivel ${pokemon.nivel}, PV ${pokemon.puntosDeVida}`);
+}
+
+// Llamadas a la función para cada Pokémon creado
+subirNivel(MewtwoObj);
+subirNivel(ArceusObj);
+subirNivel(RayquazaObj);
+
+// Mostrar la tabla con los valores actualizados
+console.table(misPokemons);
